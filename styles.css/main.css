@@ -141,6 +141,7 @@ main{
 
 .i-do{
     padding: 100px;
+    
 }
 
 .section-description{
@@ -149,6 +150,38 @@ main{
 
 /* *Skills Section Related Styles */
 
-.skill img{
-    width: 80px;
+.skills{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin-top: 60px;
+    position: absolute;
+    right: 22%;
+    padding-top: 20px;
+  
 }
+
+.skill-title{
+    margin: 15px 0;
+}
+.skill{
+    gap: 20px;
+    padding: 30px ;
+    width: 320px;
+    margin-right: 20px;
+    background-color: #FCFFE7;
+    border-radius: 5px;
+  
+
+}
+
+.skill img{
+    width: 70px;
+}
+
+.skill:hover{
+    box-shadow: 10px 10px 10px #CEE5D0;
+}
+
+/* * Resume related Styles */
+
