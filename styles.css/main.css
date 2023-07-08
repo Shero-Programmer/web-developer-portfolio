@@ -1,0 +1,67 @@
+/* !Common Shared Styles */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary{
+    background-color: #FF6100;
+    border: none;
+    padding: 10px 5px 10px 25px;
+    border-radius: 5px;
+    
+}
+
+.btn-primary a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* *Nav Bar Related Styles */
+
+.header-container{
+    background-color: #FFE6C7;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+
+nav ul li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 600;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #454545;
+    
+}
+.logo{
+width: 400px;
+
+}
+
